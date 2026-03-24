@@ -18,6 +18,25 @@ body {
     min-height: 100vh;
 }
 
+/* Layout Principal */
+#wrapper {
+    min-height: 100vh;
+}
+
+#page-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#page-content > .container-fluid {
+    flex: 1;
+}
+
+#page-content > footer {
+    width: 100%;
+}
+
 /* Sidebar */
 .sidebar {
     min-width: var(--sidebar-width);
