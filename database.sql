@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS alunos (
 
 -- Usuário admin padrão (senha: admin123)
 INSERT INTO usuarios (nome, email, senha, tipo) VALUES
-('Administrador', 'admin@escola.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin');
+('Administrador', 'admin@escola.com', '$2y$10$OEQZHSWhV1DrI.WQiLemFOsK3tkGUwg87TND1bO5Xf2tRE/VKipzi', 'admin');
 
 -- 5 Escolas
 INSERT INTO escolas (nome, endereco, telefone, email, diretor) VALUES
